@@ -27,7 +27,7 @@ namespace Slack.Webhooks.Tests
         public void SlackClient_returns_false_if_post_fails()
         {
             //arrange
-            const string webserviceurl = "https://hooks.slack.com/invalid";
+            const string webserviceurl = "https://hooks.slack.com/services/T0000/B00000/XXXXXX";
             var client = new SlackClient(webserviceurl);
 
             //act
@@ -39,6 +39,7 @@ namespace Slack.Webhooks.Tests
                 IconEmoji = Emoji.Ghost
             };
             var result = client.Post(slackMessage);
+            
 
             //assert
             Assert.False(result);

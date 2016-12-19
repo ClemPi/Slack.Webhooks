@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>Slack.Webhooks</id>
-        <version>0.2.0</version>
-        <authors>Survey.com (sourced from Benn Lazell and contributors)</authors>
+        <id>Slack.Webhooks.Alt</id>
+        <version>0.2.1</version>
+        <authors>clempi (sourced from Benn Lazell, sjw7444 and contributors)</authors>
         <licenseUrl>https://github.com/nerdfury/Slack.Webhooks/blob/master/LICENSE</licenseUrl>
         <iconUrl>http://files.fivedegrees.co.uk/Slack.Webhooks/webhook.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Even simpler integration with Slack's Incoming webhook API for .Net</description>
+        <description>Even simpler integration with Slack's Incoming webhook API for .Net, with Microsoft.AspNet.WebApi.Client dependencies.</description>
         <summary>Even simpler integration with Slack's Incoming webhook API for .Net</summary>
-        <copyright>Survey.com (sourced from Benn Lazell and contributors)</copyright>
+        <copyright>clempi (sourced from Benn Lazell, sjw7444 and contributors)</copyright>
         <language>en-US</language>
         <tags>Slack Webhooks</tags>
         <dependencies>
-            <dependency id="RestSharp" version="104.4.0" />
-            <dependency id="Newtonsoft.Json" version="9.0.1" />
-        </dependencies>
+			<dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.3" />
+		</dependencies>
     </metadata>
     <files>
         <file src="bin\Release\Slack.Webhooks.dll" target="lib\Slack.Webhooks.dll" />

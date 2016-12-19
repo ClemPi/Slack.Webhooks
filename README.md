@@ -1,12 +1,8 @@
-Slack.Webhooks [![Build status](https://ci.appveyor.com/api/projects/status/08qvvm46ouxwujmq/branch/master?svg=true)](https://ci.appveyor.com/project/nerdfury/slack/branch/master) [![NuGet Version](http://img.shields.io/nuget/v/Slack.Webhooks.svg?style=flat)](https://www.nuget.org/packages/Slack.Webhooks/) [![NuGet Downloads](http://img.shields.io/nuget/dt/Slack.Webhooks.svg?style=flat)](https://www.nuget.org/packages/Slack.Webhooks/)
-==============
+Slack.Webhooks Microsoft.AspNet.WebApi.Client variant [![Build status](https://ci.appveyor.com/api/projects/status/j2myqsf4gtiah3kd/branch/master?svg=true)](https://ci.appveyor.com/project/ClemPi/slack-webhooks/branch/master) [![NuGet Version](http://img.shields.io/nuget/v/Slack.Webhooks.Alt.svg?style=flat)](https://www.nuget.org/packages/Slack.Webhooks.Alt/)
+=====================================================
 
 Even simpler integration with Slack's Incoming/Outgoing webhooks API for .net
 
-Outgoing Webhooks
----
-
-http://nerdfury.redrabbits.co.uk/2015/04/07/slack-outgoing-webhooks/
 
 Incoming Webhooks
 ---
@@ -14,7 +10,7 @@ Incoming Webhooks
 Requirements:
 
 1. You must first enable the Webhooks integration for your Slack Account to get the Token. You can enable it here: https://slack.com/services/new/incoming-webhook
-2. Slack.Webhooks depends on RestSharp
+2. Slack.Webhooks depends on Microsoft.AspNet.WebApi.Client
 
 Download:
 
