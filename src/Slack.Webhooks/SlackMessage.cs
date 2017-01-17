@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace Slack.Webhooks
 {
@@ -24,10 +25,12 @@ namespace Slack.Webhooks
         /// <summary>
         /// Optional emoji displayed with the message
         /// </summary>
+        [JsonProperty(PropertyName = "icon_emoji")]
         public string IconEmoji { get; set; }
         /// <summary>
         /// Optional url for icon displayed with the message
         /// </summary>
+        [JsonProperty(PropertyName = "icon_url")]
         public Uri IconUrl { get; set; }
         /// <summary>
         /// Optional override markdown mode. Default: true
